@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Famous Temples</h2>
+
+        <div class="temple-card">
+            <img src="images/salt-lake-temple.jpeg" alt="Salt Lake Temple" loading="lazy">
+            <h3>Salt Lake Temple</h3>
+            <p>Located in Salt Lake City, Utah, USA. Dedicated in 1893.</p>
+        </div>
+
+        <div class="temple-card">
+            <img src="images/paris-temple.jpeg" alt="Paris France Temple" loading="lazy">
+            <h3>Paris France Temple</h3>
+            <p>Located in France, dedicated in 2017. Beautiful architecture.</p>
+        </div>
+
+        <div class="temple-card">
+            <img src="images/laie-temple.jpeg" alt="Laie Hawaii Temple" loading="lazy">
+            <h3>Laie Hawaii Temple</h3>
+            <p>Located in Laie, Hawaii. Dedicated in 1919, peaceful setting.</p>
+        </div>
+
+        <!-- HTML Form -->
+        <h2>Subscribe for Updates</h2>
+        <form id="subscribeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Subscribe</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Zelalem Eshetu</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
